@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, sans-serif;
+	line-height: 1.3;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	color: #111;
+}
+
+h2 {
+	font-size: 1.75rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.3rem;
+}
+
+.logo {
+	font-family: "Times New Roman", serif;
+}
+
+p, a, .article__image__caption, li {
+	font-family: "Times New Roman", serif;
+	line-height: 1.8;
+	font-size: 1.1rem;
+}
+
+p {
+	color: #333;
+}
+
+a {
+	font-style: italic;
+	color: #0288D1;
+}
+
+.article__image__caption {
+	font-weight: 300;
+	font-style: italic;
+	color: #555;
+	font-size: 0.8rem;
+	line-height: 1.2;
+}

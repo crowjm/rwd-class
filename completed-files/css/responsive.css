@@ -1,0 +1,75 @@
+/*HEADER, ASIDE, FOOTER, ARTICLE IMG CHANGES*/
+@media screen and (min-width: 550px) {
+	/*ARTICLE*/
+	.article__image--smaller, .article__image__caption--float {
+		float: left;
+		width: 50%;
+		margin-right: 5%;
+	}
+
+
+	/*ASIDE*/
+	aside { 
+		overflow: hidden;
+	}
+
+	.aside__section {
+		float: left;
+		width: 45%;
+	}
+
+	.aside__section--float-l {
+		margin-right: 5%;
+	}
+
+	.aside__section--float-r {
+		margin-left: 5%;
+	}
+
+
+	/*FOOTER*/
+	footer {
+		overflow: hidden;
+		clear: both;
+	}
+
+	.footer__nav, .footer__nav__secondary, .footer__copyright {
+		float: left;
+		width: 30%;
+	}
+
+	.footer__nav__secondary {
+		margin-right: 4.5%;
+		margin-left: 4.5%;
+	}
+	
+}
+
+/*ARTICLE AND ASIDE CHANGES*/
+@media screen and (min-width: 1000px) {
+	article, aside {
+		float: left;
+	}
+
+	article {
+		width: 70%;
+	}
+
+	aside {
+		width: 25%;
+		margin-left: 5%;
+	}
+
+	.aside__section {
+		float: none;
+		width: 100%;
+	}
+
+	.aside__section--float-l {
+		margin-right: 0;
+	}
+
+	.aside__section--float-r {
+		margin-left: 0;
+	}
+}
